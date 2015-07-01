@@ -48,7 +48,7 @@ int main()
 {
    //Here we can also read system file to obtain the hightest CPU frequency  
    printf("Warnning: shouldn't use this program on laptop\n");
-   cycle_time = timing_res();
+   cycle_time = 0.416739;timing_res();
    printf("CPU freq: %lf GHz\n",1/cycle_time);
    volatile int* var = malloc(sizeof(int));
    uint64_t beg, end, sum[REPNUM];
