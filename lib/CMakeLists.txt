@@ -18,6 +18,7 @@ set(SOURCES
   ProfileVerifierPass.cpp
   ProfilingUtils.cpp
   TimingSource.cpp
+  CacheTime.cpp
   MPIProfiling.cpp
   PredBlockProfiling.cpp
   datatype.h
